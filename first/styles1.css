@@ -1,0 +1,79 @@
+.black {
+	background-color: black;
+	margin: 5px;
+	float: left;
+	width: 100px;
+	height: 100px;
+	
+}
+
+.red {
+	background-color: red;
+	margin: 5px;
+	float: left;
+	width: 100px;
+	height: 100px;
+
+}
+
+.blue {
+	background-color: blue;
+	margin: 5px;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+p {
+	clear: both;
+	width: 300px;
+	margin: 5px;
+}
+
+.container {
+	width: 320px;
+	height: 50px;
+	margin: 5px;
+}
+
+.bluetwo {
+	background-color: blue;
+	height: 50px;
+	width: 75%;
+	float: left;
+}
+
+.redtwo {
+	background-color: red;
+	height: 50px;
+	float: left;
+	width: 25%;
+}
+
+.containertwo {
+	width: 320px;
+	height: 40px;
+	background-color: gray;
+	clear: both;
+	position: relative;
+	top: 20px;
+}
+
+.bluethree {
+	background-color: blue;
+	float: right;
+	position: relative;
+	z-index: 50;
+	width: 120px;
+	height: 40px;
+}
+
+.redthree {
+	background-color: red;
+	position: absolute;
+	right: 40px;
+	width: 40px;
+	height: 40px;
+	z-index: 100;
+}
+
